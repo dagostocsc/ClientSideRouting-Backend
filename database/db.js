@@ -8,4 +8,8 @@ const db = new Sequelize(
   }
 );
 
+//First we check process env databse url 
+//maybe we have something set or we dont and if it is then we will utilize it
+//if not we use the string provided on the right 
+
 module.exports = db;
